@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.BraintreeDropIn.iOS", "Naxam.BraintreeDropIn.iOS\Naxam.BraintreeDropIn.iOS.csproj", "{2962DF37-E86D-4F41-AD9D-4D40B4F92A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.BraintreeUIKit.iOS", "Naxam.BraintreeUIKit.iOS\Naxam.BraintreeUIKit.iOS.csproj", "{41DE3530-D243-4AA3-BCD1-17084DEA840D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2962DF37-E86D-4F41-AD9D-4D40B4F92A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2962DF37-E86D-4F41-AD9D-4D40B4F92A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2962DF37-E86D-4F41-AD9D-4D40B4F92A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2962DF37-E86D-4F41-AD9D-4D40B4F92A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DE3530-D243-4AA3-BCD1-17084DEA840D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DE3530-D243-4AA3-BCD1-17084DEA840D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DE3530-D243-4AA3-BCD1-17084DEA840D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DE3530-D243-4AA3-BCD1-17084DEA840D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
