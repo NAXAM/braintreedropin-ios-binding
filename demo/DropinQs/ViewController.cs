@@ -1,4 +1,5 @@
 ﻿using System;
+using BraintreeCore;
 using BraintreeDropIn;
 using CoreGraphics;
 using UIKit;
@@ -28,8 +29,10 @@ namespace DropinQs
             Button.TouchUpInside += delegate
             {
                 //throw new NotImplementedException("Plz enter your API key.");
-                //ShowBraintreeDropIn("{YOUR_API_KEY}");
+                ShowBraintreeDropIn("sandbox_9dbg82cq_dcpspy2brwdjr3qn");
             };
+
+            //BraintreeDemoMerchantAPI
         }
 
         public override void DidReceiveMemoryWarning()
@@ -40,13 +43,17 @@ namespace DropinQs
 
         private void ShowBraintreeDropIn(string clientTokenOrTokenizationKey)
         {
-            var request = new BTDropInRequest();
+            var request = new BTDropInRequest
+            {
+                Amount = "10.0",
+                ThreeDSecureVerification = true
+            };
             var dropIn = new BTDropInController(clientTokenOrTokenizationKey, request, HandleBTDropInControllerHandler);
             PresentViewController(dropIn, false, null);
         }
 
         void HandleBTDropInControllerHandler(BTDropInController controller, BTDropInResult result, Foundation.NSError error)
-        {
+		{
             if (error != null)
             {
                 System.Diagnostics.Debug.WriteLine("ERROR");

@@ -3,13 +3,13 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.BraintreeDropIn.iOS</id>
-        <version>5.2.0.1</version>
+        <version>5.2.0.2</version>
         <description>Xamarin Binding Library - Braintree DropIn</description>
         <authors>Vu Duc Tuyen</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Braintree DropIn</title>
-        <releaseNotes>Braintree DropIn v5.2.0</releaseNotes>
+        <releaseNotes>Braintree DropIn v5.2.0/Add linker</releaseNotes>
         <summary>Xamarin Binding Library - BraintreeDropIn - UIKit</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/braintreedropin-ios-binding/Naxam.BraintreeDropIn.iOS</projectUrl>

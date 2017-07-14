@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using BraintreeCore;
+using Foundation;
 using UIKit;
 
 namespace DropinQs
@@ -8,7 +9,7 @@ namespace DropinQs
     [Register("AppDelegate")]
     public class AppDelegate : UIApplicationDelegate
     {
-        public static readonly string BraintreeDemoAppDelegatePaymentsURLScheme = @"net.naxam.DropinQs.payments";
+        public static readonly string BraintreeDemoAppDelegatePaymentsURLScheme = @"net.naxam.dropinqs.payments";
 
         // class-level declarations
 
@@ -25,6 +26,29 @@ namespace DropinQs
 
             var pleasantGrey = UIColor.FromWhiteAlpha(42 / 255.0f, 1.0f);
             UIToolbar.Appearance.BarTintColor = pleasantGrey;
+
+            //BTTokenizationService.SharedService()
+            //                     .RegisterType("PayPalx",(client, data, subblock) => {
+            //    var driver = new BraintreePayPal.BTPayPalDriver(client);
+            //});
+
+            BraintreeDropIn.BraintreeDropInLinker.Init();
+            BraintreePayPal.BraintreePayPalLinker.Init();
+
+            var paypal = BTTokenizationService.SharedService().IsTypeAvailable("PayPal");
+            System.Diagnostics.Debug.WriteLine($"Paypal: {paypal}");
+
+            BTAppSwitch.SetReturnURLScheme(BraintreeDemoAppDelegatePaymentsURLScheme);
+
+            return true;
+        }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            if (url.Scheme.Equals(BraintreeDemoAppDelegatePaymentsURLScheme, System.StringComparison.OrdinalIgnoreCase)) {
+
+                return BTAppSwitch.HandleOpenURL(url, options);
+            }
 
             return true;
         }
