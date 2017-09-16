@@ -3,14 +3,14 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.BraintreeUIKit.iOS</id>
-        <version>5.2.0</version>
-        <description>Xamarin Binding Library - BraintreeDropIn - UIKit</description>
-        <authors>Vu Duc Tuyen</authors>
+        <version>5.2.2</version>
+        <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <title>Naxam - BraintreeDropIn - UIKit</title>
-        <releaseNotes>BraintreeDropIn v5.2.0 - UIKit</releaseNotes>
-        <summary>Xamarin Binding Library - BraintreeDropIn - UIKit</summary>
+        <title>Naxam - BraintreeDropIn - UIKit for iOS</title>
+        <summary>Xamarin iOS Binding Library - BraintreeDropIn - UIKit</summary>
+        <description>Xamarin iOS Binding Library - BraintreeDropIn - UIKit</description>
+        <releaseNotes>BraintreeDropIn v5.2.2 - UIKit</releaseNotes>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/braintreedropin-ios-binding/Naxam.BraintreeUIKit.iOS</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
