@@ -41,7 +41,7 @@ namespace BraintreeDropIn
 		// -(void)configurationLoaded:(BTConfiguration * _Nonnull)configuration error:(NSError * _Nonnull)error;
 		[Export ("configurationLoaded:error:")]
 		void ConfigurationLoaded (BTConfiguration configuration, NSError error);
-
+ 
 		// -(void)loadConfiguration;
 		[Export ("loadConfiguration")]
 		void LoadConfiguration ();
@@ -183,6 +183,16 @@ namespace BraintreeDropIn
 		// @property (assign, nonatomic) BOOL applePayDisabled;
 		[Export ("applePayDisabled")]
 		bool ApplePayDisabled { get; set; }
+
+		// 		/// Defaults to false. Set to true to hide the PayPal option even if enabled for your account.
+		// @property (nonatomic, assign) BOOL paypalDisabled;
+		[Export ("paypalDisabled")]
+		bool PaypalDisabled { get; set; }
+
+		// /// Defaults to false. Set to true to hide the Venmo option even if enabled for your account.
+		// @property (nonatomic, assign) BOOL venmoDisabled;
+		[Export ("venmoDisabled")]
+		bool VenmoDisabled { get; set; }
 
 		// @property (assign, nonatomic) BOOL threeDSecureVerification;
 		[Export ("threeDSecureVerification")]
