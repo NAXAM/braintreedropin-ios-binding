@@ -32,7 +32,6 @@ namespace DropinQs
             //    var driver = new BraintreePayPal.BTPayPalDriver(client);
             //});
 
-            BraintreeDropIn.BraintreeDropInLinker.Init();
             BraintreePayPal.BraintreePayPalLinker.Init();
 
             var paypal = BTTokenizationService.SharedService().IsTypeAvailable("PayPal");

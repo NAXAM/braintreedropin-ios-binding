@@ -31,14 +31,15 @@ using CoreFoundation;
 namespace BraintreeDropIn
 {
     [Preserve(AllMembers = true)]
-    public static class BraintreeDropInLinker
+    public partial class BTDropInController
     {
-        public static void Init()
+        static BTDropInController()
         {
             BraintreeApplePay.BraintreeApplePayLinker.Init();
             BraintreeCard.BraintreeCardLinker.Init();
             BraintreeUnionPay.BraintreeUnionPayLinker.Init();
 
+            new BraintreePaymentFlow.BTIdealResult();
             new BraintreeCard.BTCard();
         }
     }

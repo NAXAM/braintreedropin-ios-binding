@@ -197,6 +197,12 @@ namespace BraintreeDropIn
 		// @property (assign, nonatomic) BOOL threeDSecureVerification;
 		[Export ("threeDSecureVerification")]
 		bool ThreeDSecureVerification { get; set; }
+
+		// /// Optional: If true the security code will be masked.
+		// /// Defaults to false.
+		// @property (nonatomic, assign) BOOL shouldMaskSecurityCode;
+		[Export ("shouldMaskSecurityCode")]
+		bool ShouldMaskSecurityCode { get; set; }
 	}
 
 	// @interface BTPaymentSelectionViewController : BTDropInBaseViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UITableViewDataSource, UITableViewDelegate>

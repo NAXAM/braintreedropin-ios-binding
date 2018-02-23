@@ -31,16 +31,19 @@
     <Reference Include="System" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Naxam.BrainTreeCore.iOS">
-      <HintPath>..\packages\Naxam.BrainTreeCore.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BrainTreeCore.iOS.dll</HintPath>
+      <HintPath>..\packages\Naxam.BrainTreeCore.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BrainTreeCore.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeApplePay.iOS">
-      <HintPath>..\packages\Naxam.BraintreeApplePay.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeApplePay.iOS.dll</HintPath>
+      <HintPath>..\packages\Naxam.BraintreeApplePay.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeApplePay.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeCard.iOS">
-      <HintPath>..\packages\Naxam.BraintreeCard.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeCard.iOS.dll</HintPath>
+      <HintPath>..\packages\Naxam.BraintreeCard.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeCard.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeUnionPay.iOS">
-      <HintPath>..\packages\Naxam.BraintreeUnionPay.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeUnionPay.iOS.dll</HintPath>
+      <HintPath>..\packages\Naxam.BraintreeUnionPay.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeUnionPay.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.BraintreePaymentFlow.iOS">
+      <HintPath>..\packages\Naxam.BraintreePaymentFlow.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreePaymentFlow.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

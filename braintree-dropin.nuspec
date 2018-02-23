@@ -17,8 +17,9 @@
         <copyright>Copyright (c) 2018 NAXAM</copyright>
         <tags>Xamarin.iOS, braintree,  braintree-dropin</tags>
         <dependencies>
-            <dependency id="Naxam.BraintreeUnionPay.iOS" version="4.10.0" />
-            <dependency id="Naxam.BraintreeApplePay.iOS" version="4.10.0" />
+            <dependency id="Naxam.BraintreePaymentFlow.iOS" version="4.11.0" />
+            <dependency id="Naxam.BraintreeUnionPay.iOS" version="4.11.0" />
+            <dependency id="Naxam.BraintreeApplePay.iOS" version="4.11.0" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->

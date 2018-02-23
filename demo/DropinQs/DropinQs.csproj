@@ -82,32 +82,35 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Naxam.PayPal.Risk.iOS">
-      <HintPath>..\..\packages\Naxam.PayPal.Risk.iOS.4.8.2\lib\Xamarin.iOS10\Naxam.PayPal.Risk.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.PayPalDataCollector.iOS">
-      <HintPath>..\..\packages\Naxam.PayPalDataCollector.iOS.4.8.2.2\lib\Xamarin.iOS10\Naxam.PayPalDataCollector.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.PayPalOneTouch.iOS">
-      <HintPath>..\..\packages\Naxam.PayPalOneTouch.iOS.4.8.2\lib\Xamarin.iOS10\Naxam.PayPalOneTouch.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Naxam.BraintreePayPal.iOS">
-      <HintPath>..\..\packages\Naxam.BraintreePayPal.iOS.4.8.2.3\lib\Xamarin.iOS10\Naxam.BraintreePayPal.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="Naxam.BrainTreeCore.iOS">
-      <HintPath>..\..\packages\Naxam.BrainTreeCore.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BrainTreeCore.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Naxam.BrainTreeCore.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BrainTreeCore.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeApplePay.iOS">
-      <HintPath>..\..\packages\Naxam.BraintreeApplePay.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeApplePay.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Naxam.BraintreeApplePay.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeApplePay.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeCard.iOS">
-      <HintPath>..\..\packages\Naxam.BraintreeCard.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeCard.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Naxam.BraintreeCard.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeCard.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.BraintreeUnionPay.iOS">
-      <HintPath>..\..\packages\Naxam.BraintreeUnionPay.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.BraintreeUnionPay.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Naxam.BraintreeUnionPay.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreeUnionPay.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.PayPal.Risk.iOS">
+      <HintPath>..\..\packages\Naxam.PayPal.Risk.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.PayPal.Risk.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.PayPalUtils.iOS">
-      <HintPath>..\..\packages\Naxam.PayPalUtils.iOS.4.9.0\lib\Xamarin.iOS10\Naxam.PayPalUtils.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Naxam.PayPalUtils.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.PayPalUtils.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.PayPalDataCollector.iOS">
+      <HintPath>..\..\packages\Naxam.PayPalDataCollector.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.PayPalDataCollector.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.PayPalOneTouch.iOS">
+      <HintPath>..\..\packages\Naxam.PayPalOneTouch.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.PayPalOneTouch.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.BraintreePayPal.iOS">
+      <HintPath>..\..\packages\Naxam.BraintreePayPal.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreePayPal.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Naxam.BraintreePaymentFlow.iOS">
+      <HintPath>..\..\packages\Naxam.BraintreePaymentFlow.iOS.4.11.0\lib\Xamarin.iOS10\Naxam.BraintreePaymentFlow.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

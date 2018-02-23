@@ -4,7 +4,6 @@
 
 REVEAL_ARCHIVE_IN_FINDER=true
 
-
 UNIVERSAL_LIBRARY_DIR="${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal"
 OUTPUT_DIR="${PROJECT_DIR}/Output/${CONFIGURATION}-iphoneuniversal/"
 
