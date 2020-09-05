@@ -2,6 +2,8 @@
 
 # BrainTree-DropIn for Xamarin.iOS
 
+**New version is moved to braintree-ios-binding repo**
+
 A Xamarin.iOS binding library for [BrainTree-DropIn](https://github.com/braintree/braintree-ios-drop-in) library.
 
 ## About
